@@ -9,7 +9,7 @@ module Graphics.Formats.Collada.Objects
 where
 
 import Prelude hiding ((.), id)
-import qualified Text.XML.HXT.Arrow as X
+import qualified Text.XML.HXT.Core as X
 import qualified Text.XML.HXT.Arrow.ParserInterface as X
 import qualified Control.Arrow.ListArrow as LA
 import qualified Graphics.Rendering.OpenGL.GL as GL

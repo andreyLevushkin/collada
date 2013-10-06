@@ -59,11 +59,11 @@ Library
   Build-depends: 
     base == 4.*,
     containers,
-    transformers == 0.2.*,
-    hxt == 8.5.*,
-    OpenGL == 2.4.*, 
-    stb-image == 0.2.*,
-    bitmap-opengl == 0.0.*
+    transformers >=0.2,
+    hxt >=9.0,
+    OpenGL >=2.4, 
+    stb-image >= 0.2,
+    bitmap-opengl >= 0.0 
 
   -- Modules not exported by this package.
   -- Other-modules:       

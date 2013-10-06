@@ -1,4 +1,4 @@
-{-# LANGUAGE GeneralizedNewtypeDeriving, ScopedTypeVariables, PatternGuards, DoRec, DeriveDataTypeable #-}
+{-# LANGUAGE GeneralizedNewtypeDeriving, ScopedTypeVariables, PatternGuards, RecursiveDo, DeriveDataTypeable #-}
 
 module Graphics.Formats.Collada.Render 
     ( compile )
